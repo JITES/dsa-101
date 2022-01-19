@@ -18,7 +18,7 @@ public class productOfArrayExceptSelf {
         }
         // caveat
         int right = 1;
-        
+
         for(int i = n - 1; i >= 0 ; i--) {
             // product of left and right
             output[i] = output[i] * right;
