@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class validAnagram {
     public static void main(String[] args) {
-System.out.println(isAnagram("google", "elgoog"));
+        System.out.println(isAnagram("google", "elgoog"));
     }
 
     public static boolean isAnagram(String a, String b) {
@@ -18,9 +18,8 @@ System.out.println(isAnagram("google", "elgoog"));
             if(map.containsKey(a.charAt(i))) {
                 map.put(a.charAt(i), map.get(a.charAt(i)) + 1);
             }
-            else {
+            else
                 map.put(a.charAt(i), 1);
-            }
         }
 
         for(int i = 0; i < b.length(); i++) {
