@@ -27,7 +27,7 @@ public class validAnagram {
                 map.put(b.charAt(i), map.get(b.charAt(i)) - 1);
             }
         }
-
+        // set
         Set<Character> keys = map.keySet();
 
         for(Character key: keys) {
